@@ -11,7 +11,7 @@ public class Note {
     public String title;
     public String description;
 
-    public Note(int id, String title, String description) {
+    public Note( String title, String description) {
         this.id = id;
         this.title = title;
         this.description = description;
